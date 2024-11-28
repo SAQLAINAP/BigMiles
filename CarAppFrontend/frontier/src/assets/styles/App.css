@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f8f9fa; /* Light gray background */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #10b981;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f3f4f6;
+}
+
+/* Tailwind Custom Class for Centering */
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
